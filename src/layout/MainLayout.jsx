@@ -21,7 +21,7 @@ const links = [
   },
   {
     to: '/todo',
-    text: 'Todo APP'
+    text: 'Todo APP (RTK Query)'
   }
 ]
 

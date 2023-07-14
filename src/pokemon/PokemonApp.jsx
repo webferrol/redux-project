@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { getPokemons } from './slices'
 import { useDispatch, useSelector } from 'react-redux'
 import Typography from '@mui/material/Typography'
-import CircularProgress from '@mui/material/CircularProgress';
+import CircularProgress from '@mui/material/CircularProgress'
 import Button from '@mui/material/Button'
 import List from '@mui/material/List'
 import { ListItem, ListItemText } from '@mui/material'
@@ -15,7 +15,7 @@ export function PokemonApp () {
   useEffect(
     () => {
       dispatch(getPokemons())
-    }, []
+    }, [dispatch]
   )
   return (
     <Box>
